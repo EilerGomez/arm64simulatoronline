@@ -1,0 +1,51 @@
+.cm-s-moxer {
+    font-family: 'Fira Code', monospace; /* Usa una fuente monoespaciada moderna */
+    font-size: 14px;                     /* Aumenta el tamaño de fuente */
+    line-height: 1.5;                    /* Mejora la legibilidad */
+    background-color: #282c34;           /* Fondo oscuro */
+    color: #abb2bf;                       /* Color de texto base */
+  }
+  
+  .cm-s-moxer .cm-comment {
+    color: #5c6370; /* Un gris más claro para comentarios */
+    font-style: italic; /* Estilo en cursiva para comentarios */
+  }
+  
+  .cm-s-moxer .cm-keyword {
+    color: #e06c75; /* Color suave para instrucciones ARM64 */
+    font-weight: bold; /* Resalta palabras clave */
+  }
+  
+  .cm-s-moxer .cm-number {
+    color: #d19a66; /* Color cálido para números */
+  }
+  
+  .cm-s-moxer .cm-variable {
+    color: #61afef; /* Registros generales en azul */
+  }
+  
+  .cm-s-moxer .cm-variable-2 {
+    color: #56b6c2; /* Otros registros en un tono teal */
+  }
+  
+  .cm-s-moxer .cm-def {
+    color: #c678dd; /* Etiquetas de salto en púrpura */
+  }
+  
+  .cm-s-moxer .cm-builtin {
+    color: #e5c07b; /* Color dorado para directivas */
+  }
+  
+  .cm-s-moxer .cm-string {
+    color: #98c379; /* Texto en verde suave */
+  }
+  
+  .cm-s-moxer .cm-operator {
+    color: #d19a66; /* Color para operadores */
+  }
+  
+  /* Mejora de la línea activa */
+  .cm-s-moxer .CodeMirror-linehighlight {
+    background: rgba(255, 255, 255, 0.1); /* Color de fondo suave para línea activa */
+  }
+  
