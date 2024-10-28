@@ -3,7 +3,7 @@ CodeMirror.defineSimpleMode("arm64", {
     start: [
       // Palabras reservadas de ARM64, permitiendo mayúsculas o minúsculas
       {
-        regex: /\b(?:MOV|LDR|STR|ADD|SUB|CMP|B|BL|BX|ADR|NOP|BR|SVC|STP|LDP|RET|CBZ|CBNZ|TBNZ|TBZ|AND|ORR|EOR|LSL|LSR|ASR|ROR|ADRP|LDUR|STUR|MUL|DIV|MVN|TST|CMN|LDRB|UXTB|STRB|SDIV|BLT|BEQ|ble|bne)\b/i,
+        regex: /\b(?:MOV|LDR|STR|ADD|SUB|CMP|B|BL|BX|ADR|NOP|BR|SVC|STP|LDP|RET|CBZ|CBNZ|TBNZ|TBZ|AND|ORR|EOR|LSL|LSR|ASR|ROR|ADRP|LDUR|STUR|MUL|DIV|MVN|TST|CMN|LDRB|UXTB|STRB|SDIV|BLT|BEQ|ble|bne|BGT)\b/i,
         token: "keyword"
       },
       // Números hexadecimales, binarios, decimales y enteros
